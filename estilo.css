@@ -1,0 +1,132 @@
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;     
+}
+*{
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("img/NOVA_CARREIRA.jpg");
+    /* background-color: #5b859a; */
+    background-repeat: repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
+.header{
+    display: block;
+    border:2px solid;
+    border-color: chocolate;
+    border-radius: 10px;
+    background-color:rgba(16, 16, 16, .95);
+    position: sticky;
+    top: 0px;
+    width: 99.5%;
+    color:rgb(245, 245, 245);
+    z-index: 1;
+ 
+}
+#nome{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.8rem;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+#nome:hover{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2.5rem;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.img1{
+    width: 50px; 
+    height: 50px; 
+    border-radius: 20%; 
+    border:2px solid;
+    border-color: chocolate;
+    position: absolute;
+    top: 35px;
+    right: 1px;
+    
+}
+.dados_pessoais{
+    font-style: italic;
+    font-size: 0.8rem;
+    text-align: left;
+    margin-left: 20px;
+}
+.objetivo, .F_academica, .idioma, .qualificacoes, .hist_prof, .cursos{
+    border:2px solid;
+    border-color: chocolate;
+    border-radius: 10px;
+    background-color:rgba(127, 202, 240, .65);
+    position: relative;
+    top: 0px;
+    left: 5%;
+    width: 90%;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.f_a, .obj, .idioma_1, .qualificacoes_1, .hist_prof_1, .cursos_1{
+    text-align: left;
+    margin-left: 20px;
+}
+table{
+    border: solid;
+    table-layout: auto;
+    width: 90%;
+    margin-left: 30px;
+}
+
+@media screen and (min-width: 762px) {
+    body {
+        background-color: #5b859a;
+    }
+
+    #nome{
+        font-weight: bold;
+        font-style: italic;
+        font-size: 1.8rem;
+        text-align: center;
+        text-decoration: underline;
+
+
+
+}
+/* min-width */
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: #F90;
+    }
+    #nome{
+        color: brown;
+    }
+}
+@media screen and (min-width:
+ 1280px) {
+    body {
+        background-color:brown;
+    }
+    #nome{
+        color:  #F90;
+    }
+}
+@media screen and (min-width: 1440px) {
+    body {
+        background-color:rgb(54, 165, 42);
+    }
+    #nome{
+        color:  rgb(88, 42, 8);
+    }
+}
+
+
+
